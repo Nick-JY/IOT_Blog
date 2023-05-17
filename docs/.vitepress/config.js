@@ -36,7 +36,8 @@ export default {
                     items: [
                       { text: '计算机硬件概要', link: '/hardware_group/计算机组成与设计/计算机硬件概要.md' }, 
                       { text: '计算机的语言:指令', link: '/hardware_group/计算机组成与设计/计算机的语言.md' },
-                      { text: '计算机的算术运算', link: '/hardware_group/计算机组成与设计/计算机的算术运算.md' } 
+                      { text: '计算机的算术运算', link: '/hardware_group/计算机组成与设计/计算机的算术运算.md' },
+                      { text: 'MIPS架构处理器设计', link: '/hardware_group/计算机组成与设计/MIPS架构处理器设计.md' } 
                     ]
                   },
                   {

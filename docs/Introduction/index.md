@@ -9,10 +9,25 @@ import {
 } from 'vitepress/theme'
 
 const members = [
+    {
+    avatar: 'https://cdn.jsdelivr.net/gh/chengkhen/picture_via_picco/202305170934505.png',
+    name: '姚华雄教授',
+    title: '华中师范大学物联网协会指导老师、物联网工程系主任、物联网工程系党支部书记、物联网实验室主任',
+    links: [
+    ]
+  },
+    {
+    avatar: 'https://github.com/jdccccc.png',
+    name: 'jdccccc',
+    title: '前物联网协会会长，现中科院计算所23级智能处理器研究生',
+    links: [
+      { icon: 'github', link: 'https://github.com/jdccccc' },
+    ]
+  },
   {
     avatar: 'https://github.com/Nick-JY.png',
     name: 'Nickal JY',
-    title: '华中师范大学计算机学院2021级物联网工程系',
+    title: '现物联网协会会长，华中师范大学计算机学院2021级物联网工程系',
     links: [
       { icon: 'github', link: 'https://github.com/Nick-JY' },
     ]
@@ -28,7 +43,7 @@ const members = [
   {
     avatar: 'https://github.com/chengkhen.png',
     name: 'chengkhen',
-    title: '华中师范大学计算机学院2021级软件工程系',
+    title: '华中师范大学计算机学院2021级计算机科学与技术系',
     links: [
       { icon: 'github', link: 'https://github.com/chengkhen' },
     ]
@@ -47,6 +62,14 @@ const members = [
     title: '华中师范大学计算机学院2021级计算机科学与技术系',
     links: [
       { icon: 'github', link: 'https://github.com/LSJZXY' },
+    ]
+  },
+  {
+    avatar: 'https://github.com/Ycsir510.png',
+    name: 'Ycsir510',
+    title: '华中师范大学计算机学院2021级计算机科学与技术系',
+    links: [
+      { icon: 'github', link: 'https://github.com/Ycsir510' },
     ]
   },
   {
@@ -79,7 +102,7 @@ const members = [
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
-      IOT Member
+      IOT Members
     </template>
     <template #lead>
         物联网协会成员
