@@ -13,8 +13,9 @@ export default {
         nav: [
             { text: '协会成员', link: '/Introduction/', activeMatch: '/Introduction/' },
             { text: '硬件组', link: '/hardware_group/', activeMatch: '/hardware_group/' },
-            { text: '软件组', link: '/software_group/', activeMatch: '/software_group/' },
+            { text: '算法组', link: '/software_group/', activeMatch: '/software_group/' },
             { text: 'APP组', link: '/app_group/', activeMatch: '/app_group/' },
+            { text: '协会建设', link: '/culture/', activeMatch: '/culture/' },
         ],
 
         sidebar: {
@@ -67,7 +68,7 @@ export default {
                 ],  
                 '/software_group/': [
                     {
-                      text: '软件组培训',
+                      text: '算法组培训',
                       collapsible: true,
                       collapsed: false,
                       items: [
@@ -98,7 +99,33 @@ export default {
 
                         ]
                       },
-                ],         
+                ],  
+                '/culture/': [
+                  {
+                    text: '每周例会',
+                    collapsible: true,
+                    collapsed: false,
+                    items: [
+                    ]
+                  },
+                  {
+                      text: '重要会议',
+                      collapsible: true,
+                      collapsed: false,
+                      items: [
+                        // { text: '实验室重组第一次例会', link: '/culture/重要会议/实验室重组第一次会议.md' },
+                        { text: '2023物联网协会暑假集训介绍', link: '/culture/重要会议/2023物联网协会暑假集训介绍.md' },
+                      ]
+                  },
+                  {
+                    text: '团建活动',
+                    collapsible: true,
+                    collapsed: false,
+                    items: [
+                      { text: '2023年5月21日团建', link: '/culture/团建活动/2023年5月21日团建.md' },
+                    ]
+                },
+              ],        
         },
 
 

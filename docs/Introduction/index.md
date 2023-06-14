@@ -10,7 +10,7 @@ import {
 
 const members = [
     {
-    avatar: 'https://cdn.jsdelivr.net/gh/chengkhen/picture_via_picco/202305170934505.png',
+    avatar: '/yaohuaxiong.png',
     name: '姚华雄教授',
     title: '华中师范大学物联网协会指导老师、物联网工程系主任、物联网工程系党支部书记、物联网实验室主任',
     links: [
@@ -73,6 +73,14 @@ const members = [
     ]
   },
   {
+    avatar: 'https://github.com/Nutcra-yu.png',
+    name: 'Nutcra-yu',
+    title: '华中师范大学计算机学院2021级计算机科学与技术系、木犀团队安卓组组长',
+    links: [
+      { icon: 'github', link: 'https://github.com/Nutcra-yu' },
+    ]
+  },
+  {
     avatar: 'https://github.com/Eazinqi.png',
     name: 'Eazinqi',
     title: '华中师范大学计算机学院2021级计算机科学与技术系',
@@ -91,7 +99,15 @@ const members = [
   {
     avatar: 'https://github.com/RuthlessZhang.png',
     name: 'RuthlessZhang',
-    title: '华中师范大学计算机学院2021级计算机科学与技术',
+    title: '华中师范大学计算机学院2021级计算机科学与技术系',
+    links: [
+      { icon: 'github', link: 'https://github.com/RuthlessZhang' },
+    ]
+  },
+  {
+    avatar: 'https://github.com/patataaaaaaaaa.png',
+    name: 'patataaaaaaaaa',
+    title: '华中师范大学计算机学院2021级计算机科学与技术系',
     links: [
       { icon: 'github', link: 'https://github.com/RuthlessZhang' },
     ]
